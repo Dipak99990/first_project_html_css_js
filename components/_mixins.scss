@@ -1,0 +1,15 @@
+//gradient
+@use '../structure/change' as *;
+@mixin gradient {
+    background: linear-gradient(to right,(rgba($secondary,0.96),rgba($primary,0.95)));
+}
+@mixin absolutecenter {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@mixin font_family{
+    font-family: 'Poppins', sans-serif;
+}
